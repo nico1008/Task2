@@ -38,7 +38,7 @@ public class Task2 {
                 min=arr[i];
             }
         }
-        return max-min;
+        return Math.abs(max-min);
     }
     public static int equal(int perv , int vtor,int tret){
         if (perv==vtor && perv==tret){
