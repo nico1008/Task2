@@ -57,8 +57,8 @@ public class Task2 {
         return rev;
     }
     public static int programmers(int a,int b ,int c){
-            int max=1;
-            int min=0;
+            int max=a;
+            int min=a;
         if (a>b && a>c) {
              max = a;
         }
